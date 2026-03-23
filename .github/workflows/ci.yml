@@ -72,6 +72,7 @@ jobs:
         - { node: "20", pnpm: "9" }
         - { node: "22", pnpm: "9" }
         eslint:
+        - "eslint@10"
         - "eslint@9"
         - "eslint@8"
         - "eslint@7"
