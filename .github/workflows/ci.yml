@@ -82,6 +82,12 @@ jobs:
           node: { node: "14", pnpm: "6" }
         - eslint: "eslint@9"
           node: { node: "16", pnpm: "7" }
+        - eslint: "eslint@10"
+          node: { node: "14", pnpm: "6" }
+        - eslint: "eslint@10"
+          node: { node: "16", pnpm: "7" }
+        - eslint: "eslint@10"
+          node: { node: "18", pnpm: "9" }
             
     steps:
       - uses: actions/checkout@v5
